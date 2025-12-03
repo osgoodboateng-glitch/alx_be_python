@@ -24,4 +24,5 @@ for i in range(3):
         reminder += " Consider completing it when you have free time."
 
     # Print the reminder
-    print(f"Reminder {i+1}: {reminder}")
+
+    print(f"Reminder: {i+1}: {reminder}")
