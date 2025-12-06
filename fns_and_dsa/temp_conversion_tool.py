@@ -26,3 +26,4 @@ try:
 except ValueError as e:
     print("Invalid temperature. Please enter a numeric value.")
     print(e)
+
