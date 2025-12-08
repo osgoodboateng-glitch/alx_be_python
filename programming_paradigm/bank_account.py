@@ -12,7 +12,6 @@ class BankAccount:
 
     def withdraw(self, amount):
         if amount > self.account_balance:
-            print("Insufficient funds.")
             return False
         elif amount <= 0:
             print("Withdrawal amount must be positive")
@@ -22,5 +21,5 @@ class BankAccount:
             return True
 
     def display_balance(self):
-        print("Current Balance: $", float(self.account_balance))
+        print(f"Current Balance: ${self.account_balance.2f})
         return self.account_balance
