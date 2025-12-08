@@ -20,4 +20,4 @@ class BankAccount:
 
     def display_balance(self):
         # Return balance formatted to 2 decimal places
-        return f"Current Balance: ${self.account_balance:.2f}"
+        print(f"Current Balance: ${self.account_balance:.2f}")
